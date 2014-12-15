@@ -21,7 +21,7 @@ Schemas.Entries = new SimpleSchema
 		type: String
 		autoform:
 			afFieldInput:
-				type: 'tags-toggle'
+				type: 'tags'
 
 Entries.attachSchema(Schemas.Entries)
 ```
