@@ -18,10 +18,9 @@ Schemas.Entries = new SimpleSchema
 		max: 60
 		
 	tags:
-		type: String
+		type: [String] # or String
 		autoform:
-			afFieldInput:
-				type: 'tags'
+			type: 'tags'
 
 Entries.attachSchema(Schemas.Entries)
 ```
@@ -43,4 +42,4 @@ or
 {{/autoForm}}
 ```
 
-Tags will be comma separated string.
+Tags will be an array of strings if field type is `[String]` or comma separated string if field type is `String`.

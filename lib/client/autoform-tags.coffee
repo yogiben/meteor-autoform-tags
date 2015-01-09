@@ -2,6 +2,9 @@ AutoForm.addInputType 'tags',
 	template: 'autoformTags'
 	valueOut: ->
 		@val()
+	valueConverters:
+		stringArray: (value) ->
+			value.split ','
 
 Template.autoformTags.hooks
 	rendered: ->
