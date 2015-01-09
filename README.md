@@ -21,6 +21,8 @@ Schemas.Entries = new SimpleSchema
 		type: [String] # or String
 		autoform:
 			type: 'tags'
+			afFieldInput:
+				# bootstrap-tagsinput options
 
 Entries.attachSchema(Schemas.Entries)
 ```
@@ -43,3 +45,8 @@ or
 ```
 
 Tags will be an array of strings if field type is `[String]` or comma separated string if field type is `String`.
+
+###Options###
+
+		console.log @data.atts
+See all supported bootstrap-tagsinput options [here](http://timschlechter.github.io/bootstrap-tagsinput/examples/#options).

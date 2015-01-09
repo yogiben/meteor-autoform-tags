@@ -6,12 +6,13 @@ AutoForm.addInputType 'tags',
 		stringArray: (value) ->
 			value.split ','
 
-Template.autoformTags.hooks
-	rendered: ->
-		self = @$ '.js-input'
+Template.autoformTags.rendered = ->
+	self = @$ '.js-input'
 
-		self.closest('form').on 'reset', ->
-			self.tagsinput 'removeAll'
+	self.closest('form').on 'reset', ->
+		self.tagsinput 'removeAll'
+
+	self.tagsinput @data.atts
 
 Template.autoformTags.helpers
 	schemaKey: ->

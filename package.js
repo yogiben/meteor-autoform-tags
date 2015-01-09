@@ -11,8 +11,7 @@ Package.onUse(function(api) {
   api.use([
   	'templating',
   	'coffeescript',
-  	'aldeed:autoform@4.2.1',
-    'aldeed:template-extension@3.1.1'
+  	'aldeed:autoform@4.2.1'
   ], 'client');
 
   api.addFiles([
