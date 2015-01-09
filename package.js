@@ -15,11 +15,11 @@ Package.onUse(function(api) {
   ], 'client');
 
   api.addFiles([
-  	'lib/client/bootstrap-tagsinput.css',
-  	'lib/client/bootstrap-tagsinput.min.js',
-  	'lib/client/autoform-tags.css',
   	'lib/client/autoform-tags.html',
-  	'lib/client/autoform-tags.coffee'
+    'lib/client/bootstrap-tagsinput.css',
+    'lib/client/autoform-tags.css',
+    'lib/client/autoform-tags.coffee',
+    'lib/client/bootstrap-tagsinput.min.js'
   ], 'client');
 });
 
