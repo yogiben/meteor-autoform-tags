@@ -15,7 +15,7 @@ Package.onUse(function(api) {
   ], 'client');
 
   api.addFiles([
-  	'lib/client/autoform-tags.html',
+    'lib/client/autoform-tags.html',
     'lib/client/bootstrap-tagsinput.css',
     'lib/client/autoform-tags.css',
     'lib/client/autoform-tags.coffee',
