@@ -1,7 +1,7 @@
 Package.describe({
   name: 'yogiben:autoform-tags',
   summary: 'Tags input for aldeed:autoform',
-  version: '0.1.1',
+  version: '0.1.2',
   git: 'https://github.com/yogiben/meteor-autoform-tags'
 });
 
