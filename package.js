@@ -19,12 +19,5 @@ Package.onUse(function(api) {
     'lib/client/bootstrap-tagsinput.css',
     'lib/client/autoform-tags.css',
     'lib/client/autoform-tags.coffee',
-    'lib/client/bootstrap-tagsinput.min.js'
   ], 'client');
-});
-
-Package.onTest(function(api) {
-  api.use('tinytest');
-  api.use('yogiben:autoform-tags');
-  api.addFiles('yogiben:autoform-tags-tests.js');
 });
