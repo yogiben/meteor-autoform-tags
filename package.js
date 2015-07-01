@@ -9,9 +9,9 @@ Package.onUse(function(api) {
   api.versionsFrom('1.0.1');
 
   api.use([
-  	'templating',
-  	'coffeescript',
-  	'aldeed:autoform@5.3.0',
+    'templating',
+    'coffeescript',
+    'aldeed:autoform@5.3.0',
     'ajduke:bootstrap-tagsinput@0.7.0'
   ], 'client');
 
