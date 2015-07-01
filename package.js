@@ -11,13 +11,13 @@ Package.onUse(function(api) {
   api.use([
   	'templating',
   	'coffeescript',
-  	'aldeed:autoform@4.2.2 || 5.1.2'
+  	'aldeed:autoform@5.3.0',
+    'ajduke:bootstrap-tagsinput@0.7.0'
   ], 'client');
 
   api.addFiles([
     'lib/client/autoform-tags.html',
-    'lib/client/bootstrap-tagsinput.css',
     'lib/client/autoform-tags.css',
-    'lib/client/autoform-tags.coffee',
+    'lib/client/autoform-tags.coffee'
   ], 'client');
 });
